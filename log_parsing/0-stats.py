@@ -31,8 +31,7 @@ def main():
             lines += 1
             if lines % 10 == 0:
                 print_stats(total, counts)
-        if lines % 10 != 0:
-            print_stats(total, counts)
+        print_stats(total, counts)
     except KeyboardInterrupt:
         print_stats(total, counts)
         raise

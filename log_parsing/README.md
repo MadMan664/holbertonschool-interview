@@ -11,8 +11,8 @@ A line that does not match this format is skipped (it is not counted).
 
 ## Output
 
-After every 10 lines, on a keyboard interruption (CTRL + C), and once at the
-end of the input if lines are left over, the script prints the statistics
+After every 10 lines, on a keyboard interruption (CTRL + C), and once more
+when the input ends (even if it was empty), the script prints the statistics
 from the beginning:
 
 - `File size: <total size>`, the sum of all file sizes read so far
